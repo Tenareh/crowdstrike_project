@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Checkout the source code from the Git repository
+                // Checkout the source code from the Git repository)
                 git "https://github.com/etamarah/crowdstrike_project"
             }
         }
